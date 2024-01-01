@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  
+</head>
+<body style="height: 3000px;
+padding-top: 80px;">
+  <div class="header">
+    <div class="left-section">
+      <img src="hamburger-menu.svg" class="hamburger-menu">
+      <img src="youtube-logo.svg" class="youtube-logo">
+    </div>
+    <div class="middle-section">
+      <input type="text" placeholder="Search" class="search-bar">
+      <button class="search-button">
+        <img src="search.svg" class="search-icon">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img src="voice-search-icon.svg" class="voice-search-icon">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img src="upload.svg" class="upload-icon">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="youtube-apps-icon-container">
+        <img src="youtube-apps.svg" class="youtube-apps-icon">
+        <div class="tooltip">YouTube apps</div>
+      </div>
+      
+      <div class="notifications-icon-container">
+        <img src="notifications.svg" class="notifications-icon">
+        <div class="notifications-count"> 3</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <img src="WhatsApp Image 2023-12-28 at 18.12.08_1dae9c75.jpg" class="current-user-picture">
+    </div> 
+  </div>
+  
+  <div class="sidebar">
+    <div class="sidebar-link">
+      <img src="home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="originals.svg">
+      <div>Originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="youtube-music.svg">
+      <div>YouTube Music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="library.svg">
+      <div>Library</div>
+    </div> 
+  </div>
+
+  <div class="video-grid">
+    <div class="video-preview">
+      <div class="horizontal-1">
+        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY"><img src="thumbnail-1.webp" class="thumbnail"></a>
+        <div class="video-time">14:20</div>
+      </div>
+      <div class="horizontal-2">
+        <div class="vertical-1">
+          <img src="channel-1.jpeg" class="profile-picture">
+        </div>
+        <div class="vertical-2">
+          <p class="video-title">
+            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">Talking Tech and AI with Google CEO Sundar Pichai!</a>
+          </p>
+          <p class="video-author">
+            Marques Brownlee
+          </p>
+          <p class="video-stats">
+            3.4M views &#183; 2 years ago
+          </p>
+        </div>
+      </div>
+    </div> 
+  
+    <div class="video-preview">
+      <div class="horizontal-1">
+        <a href="https://www.youtube.com/watch?v=0TI6gN46Yjg"><img src="1a.webp" class="thumbnail"></a>
+        <div class="video-time">58:03</div>
+      </div>
+      <div class="horizontal-2">
+        <div class="vertical-1">
+          <img src="1.jpg" class="profile-picture">
+        </div>
+        <div class="vertical-2">
+          <p class="video-title">
+            <a href="https://www.youtube.com/watch?v=0TI6gN46Yjg">KYLERZZ BEST VIDEOS OF 2023! (Man United, Liverpool, Arsenal, Champions League)</a>
+          </p>
+          <p class="video-author">
+            Kylerzz
+          </p>
+          <p class="video-stats">
+            87K views &#183; 1 day ago
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="video-preview">
+      <div class="horizontal-1">
+        <a href="https://www.youtube.com/watch?v=wAme3GKtJ_w"><img src="2a.webp" class="thumbnail"></a>
+        <div class="video-time">5:44</div>
+      </div>
+      <div class="horizontal-2">
+        <div class="vertical-1">
+          <img src="2.jpg" class="profile-picture">
+        </div>
+        <div class="vertical-2">
+          <p class="video-title">
+            <a href="https://www.youtube.com/watch?v=wAme3GKtJ_w">Why are stadiums so expensive to build?</a>
+          </p>
+          <p class="video-author">
+            Tifo Football
+          </p>
+          <p class="video-stats">
+            82K views &#183; 11 hours ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="horizontal-1">
+        <a href="https://www.youtube.com/watch?v=bX2KrrOwuHk"><img src="3a.webp" class="thumbnail"></a>
+        <div class="video-time">1:47:01</div>
+      </div>
+      <div class="horizontal-2">
+        <div class="vertical-1">
+          <img src="3.jpg" class="profile-picture">
+        </div>
+        <div class="vertical-2">
+          <p class="video-title">
+            <a href="https://www.youtube.com/watch?v=bX2KrrOwuHk">FUNNIEST MEMES OF 2023 - 2 HOUR SPECIAL EPISODE</a>
+          </p>
+          <p class="video-author">
+            Tanmay Bhat
+          </p>
+          <p class="video-stats">
+            1.7M views &#183; 3 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="horizontal-1">
+        <a href="https://www.youtube.com/watch?v=fF4XYwZtKb0"><img src="4a.webp" class="thumbnail"></a>
+        <div class="video-time">3:53</div>
+      </div>
+      <div class="horizontal-2">
+        <div class="vertical-1">
+          <img src="4.jpg" class="profile-picture">
+        </div>
+        <div class="vertical-2">
+          <p class="video-title">
+            <a href="https://www.youtube.com/watch?v=fF4XYwZtKb0">Let Her Go x Husn - Version 2 (Gravero Mashup) | Anuv Jain</a>
+          </p>
+          <p class="video-author">
+            Gravero
+          </p>
+          <p class="video-stats">
+            431K views &#183; 1 day ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="horizontal-1">
+        <a href="https://www.youtube.com/watch?v=VjiWpGR82t0"><img src="5a.webp" class="thumbnail"></a>
+        <div class="video-time">11:54</div>
+      </div>
+      <div class="horizontal-2">
+        <div class="vertical-1">
+          <img src="5.jpg" class="profile-picture">
+        </div>
+        <div class="vertical-2">
+          <p class="video-title">
+            <a href="https://www.youtube.com/watch?v=VjiWpGR82t0">Web Developer Portfolio - 9.5/10 (Front End, React)</a>
+          </p>
+          <p class="video-author">
+            CodingPhase
+          </p>
+          <p class="video-stats">
+            866K views &#183; 9 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="horizontal-1">
+        <a href="https://www.youtube.com/watch?v=L6sbfskaTDQ"><img src="6a.webp" class="thumbnail"></a>
+        <div class="video-time">1:37:34</div>
+      </div>
+      <div class="horizontal-2">
+        <div class="vertical-1">
+          <img src="6.jpg" class="profile-picture">
+        </div>
+        <div class="vertical-2">
+          <p class="video-title">
+            <a href="https://www.youtube.com/watch?v=L6sbfskaTDQ">FULL MATCH: Brazil v Germany | 2014 FIFA World Cup</a>
+          </p>
+          <p class="video-author">
+            FIFA
+          </p>
+          <p class="video-stats">
+            3.7 views &#183; Streamed 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="horizontal-1">
+        <a href="https://www.youtube.com/watch?v=fp2UfWQm9UE"><img src="7a.webp" class="thumbnail"></a>
+        <div class="video-time">57:07</div>
+      </div>
+      <div class="horizontal-2">
+        <div class="vertical-1">
+          <img src="7.jpg" class="profile-picture">
+        </div>
+        <div class="vertical-2">
+          <p class="video-title">
+            <a href="https://www.youtube.com/watch?v=fp2UfWQm9UE">THE ROY KEANE SHOW - All Episodes</a>
+          </p>
+          <p class="video-author">
+            442oons
+          </p>
+          <p class="video-stats">
+            171K views &#183; 8 days ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="horizontal-1">
+        <a href="https://www.youtube.com/watch?v=H8uHux0XuYA"><img src="8a.webp" class="thumbnail"></a>
+        <div class="video-time">3:19</div>
+      </div>
+      <div class="horizontal-2">
+        <div class="vertical-1">
+          <img src="8.jpg" class="profile-picture">
+        </div>
+        <div class="vertical-2">
+          <p class="video-title">
+            <a href="https://www.youtube.com/watch?v=H8uHux0XuYA">Prateek Kuhad - O Piya (Official Music Video)</a>
+          </p>
+          <p class="video-author">
+            Prateek Kuhad
+          </p>
+          <p class="video-stats">
+            469K views &#183; 2 weeks ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="horizontal-1">
+        <a href="https://www.youtube.com/watch?v=DELkadqQ-EI"><img src="9a.webp" class="thumbnail"></a>
+        <div class="video-time">7:45</div>
+      </div>
+      <div class="horizontal-2">
+        <div class="vertical-1">
+          <img src="9.jpg" class="profile-picture">
+        </div>
+        <div class="vertical-2">
+          <p class="video-title">
+            <a href="https://www.youtube.com/watch?v=DELkadqQ-EI">20 Nasty Body Turns of Lionel Messi ►Violating the Laws of Physics ! [HD]</a>
+          </p>
+          <p class="video-author">
+            Messi Magic
+          </p>
+          <p class="video-stats">
+            17K views &#183; 14 hours ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="horizontal-1">
+        <a href="https://www.youtube.com/watch?v=pRLOXUlIUG0&pp=ygUVbXVsYXFhdCBwcmF0ZWVrIGt1aGFk"><img src="10a.webp" class="thumbnail"></a>
+        <div class="video-time">4:16</div>
+      </div>
+      <div class="horizontal-2">
+        <div class="vertical-1">
+          <img src="8.jpg" class="profile-picture">
+        </div>
+        <div class="vertical-2">
+          <p class="video-title">
+            <a href="https://www.youtube.com/watch?v=pRLOXUlIUG0&pp=ygUVbXVsYXFhdCBwcmF0ZWVrIGt1aGFk">Prateek Kuhad - Mulaqat (Official Music Video) | Tara Sutaria</a>
+          </p>
+          <p class="video-author">
+            Prateek Kuhad
+          </p>
+          <p class="video-stats">
+            5.1M views &#183; 2 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="horizontal-1">
+        <a href="https://www.youtube.com/watch?v=x-uqy2UT8bU"><img src="11a.webp" class="thumbnail"></a>
+        <div class="video-time">4:21</div>
+      </div>
+      <div class="horizontal-2">
+        <div class="vertical-1">
+          <img src="1.jpg" class="profile-picture">
+        </div>
+        <div class="vertical-2">
+          <p class="video-title">
+            <a href="https://www.youtube.com/watch?v=x-uqy2UT8bU">Man United's awful start to the 21/22 season in a nutshell. EXE</a>
+          </p>
+          <p class="video-author">
+            Kylerzz
+          </p>
+          <p class="video-stats">
+            635K views &#183; 2 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
